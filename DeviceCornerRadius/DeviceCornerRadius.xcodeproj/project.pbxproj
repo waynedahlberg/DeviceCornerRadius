@@ -6,14 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0CB20292C9E4EF800D03A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CB20232C9E4EF800D03A20 /* Preview Assets.xcassets */; };
+		B0CB202A2C9E4EF800D03A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CB20252C9E4EF800D03A20 /* Assets.xcassets */; };
+		B0CB202C2C9E4EF800D03A20 /* DeviceCornerRadiusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB20272C9E4EF800D03A20 /* DeviceCornerRadiusApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B0CB20112C9E4DE000D03A20 /* DeviceCornerRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceCornerRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CB20232C9E4EF800D03A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0CB20252C9E4EF800D03A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CB20272C9E4EF800D03A20 /* DeviceCornerRadiusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCornerRadiusApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B0CB20132C9E4DE000D03A20 /* DeviceCornerRadius */ = {
+		B0CB202D2C9E4F0200D03A20 /* Extension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DeviceCornerRadius;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B0CB20372C9E4F3C00D03A20 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +46,7 @@
 		B0CB20082C9E4DE000D03A20 = {
 			isa = PBXGroup;
 			children = (
-				B0CB20132C9E4DE000D03A20 /* DeviceCornerRadius */,
+				B0CB20282C9E4EF800D03A20 /* DeviceCornerRadius */,
 				B0CB20122C9E4DE000D03A20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +57,26 @@
 				B0CB20112C9E4DE000D03A20 /* DeviceCornerRadius.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CB20242C9E4EF800D03A20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0CB20232C9E4EF800D03A20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0CB20282C9E4EF800D03A20 /* DeviceCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				B0CB20272C9E4EF800D03A20 /* DeviceCornerRadiusApp.swift */,
+				B0CB20372C9E4F3C00D03A20 /* Views */,
+				B0CB202D2C9E4F0200D03A20 /* Extension */,
+				B0CB20242C9E4EF800D03A20 /* Preview Content */,
+				B0CB20252C9E4EF800D03A20 /* Assets.xcassets */,
+			);
+			path = DeviceCornerRadius;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +95,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B0CB20132C9E4DE000D03A20 /* DeviceCornerRadius */,
+				B0CB202D2C9E4F0200D03A20 /* Extension */,
+				B0CB20372C9E4F3C00D03A20 /* Views */,
 			);
 			name = DeviceCornerRadius;
 			packageProductDependencies = (
@@ -109,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CB20292C9E4EF800D03A20 /* Preview Assets.xcassets in Resources */,
+				B0CB202A2C9E4EF800D03A20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CB202C2C9E4EF800D03A20 /* DeviceCornerRadiusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
